@@ -1,0 +1,93 @@
+.information-me {
+  margin: 4rem 6rem;
+}
+
+.information-me h1 {
+  font-size: 3 rem;
+}
+
+.first-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+.des-text {
+  width: 45%;
+  text-align: start;
+  font-size: 1.2rem;
+  font-weight: 450;
+}
+
+.des-text h2 {
+  padding-bottom: 1rem;
+}
+
+.image {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.image img {
+  width: 49%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.image img:nth-child(2) {
+  position: absolute;
+  top: -10%;
+  right: 0;
+}
+
+.schedule {
+  margin-top: 3.65rem;
+}
+
+.popup-button {
+  display: inline;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem 1rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  color: black;
+  margin-top: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.popup-button:hover {
+  background-color: #2243b6;
+}
+
+.schedule @media screen and (max-width: 850px) {
+  .information-me {
+    margin: 4rem 2rem;
+  }
+
+  .first-des {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+
+  .des-text {
+    width: 100%;
+  }
+
+  .image {
+    width: 100%;
+    margin: 1.8rem 0;
+  }
+
+  .image img {
+    max-height: 250px;
+  }
+}

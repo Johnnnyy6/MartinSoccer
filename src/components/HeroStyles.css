@@ -42,7 +42,7 @@ img {
 .hero-text p {
   font-size: 1.5rem;
   font-weight: 900;
-  color: #black;
+  color: black;
   padding: 0.5rem 0 2rem 0;
 }
 
@@ -73,7 +73,7 @@ img {
 
   .hero-text p {
     font-size: 1.1 rem;
-    paddding: 0 0 2rem 0;
+    padding: 0 0 2rem 0;
   }
 
   .hero-text .show {

@@ -10,8 +10,8 @@ class InformationAboutData extends Component {
           <p>{this.props.text}</p>
         </div>
         <div className="image">
-          <img alt="img of player" src={this.props.img1} />
-          <img alt="img of player" src={this.props.img2} />
+          <img src={this.props.img1} />
+          <img src={this.props.img2} />
         </div>
       </div>
     );

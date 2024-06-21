@@ -72,6 +72,9 @@ const ServiceInformation = () => {
           className="popup-button"
         />
       </div>
+      <h3>
+        *Disclaimer all booking sessions require a $15 deposit. Thank You!*
+      </h3>
     </div>
   );
 };

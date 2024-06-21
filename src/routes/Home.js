@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import homeImg from "../assets/12.jpg";
 import Footer from "../components/Footer";
+import HomeInfo from "../components/homeInfo";
 
 function Home() {
   return (
@@ -10,12 +11,11 @@ function Home() {
       <Hero
         cName="hero"
         heroImg={homeImg}
-        title="Your Journey Your Story"
-        text="Train Today, See Results Tomorrow"
         btnText="Get Started"
         url="/services"
         btnClass="show"
       />
+      <HomeInfo />
       <Footer />
     </>
   );
